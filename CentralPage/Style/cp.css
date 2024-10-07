@@ -1,4 +1,36 @@
 img{
-    width: 250px;
+    width: 300px;
     height: auto;
+    margin: 10px;
+    transform: translate(-50%, -50%);
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+body{
+    background: #FFFFFF;
+    background: radial-gradient(at left top, #FFFFFF, #010101);
 }
