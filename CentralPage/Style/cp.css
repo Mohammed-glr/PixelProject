@@ -1,3 +1,7 @@
+body{
+    transition: 1s ease-in-out;
+}
+
 img{
     width: 350px;
     height: auto;
@@ -31,6 +35,7 @@ img{
 html, body{
     height: 100%;
     margin: 0px;
+    transition: 20s ease-in-out;
 }
 .container0{
 
@@ -41,7 +46,4 @@ html, body{
     flex-direction: row;
     background: transparent;
     
-}
-body{
-    transition: background-image 0,1s ease;
 }
