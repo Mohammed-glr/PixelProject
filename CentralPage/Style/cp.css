@@ -1,11 +1,13 @@
 body{
-    transition: 1s ease-in-out;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 img{
     width: 350px;
     height: auto;
     margin: 10px;
+    transition: 1s ease-in-out;
 }
 .container1{
     display: flex;
@@ -22,6 +24,7 @@ img{
     justify-content: center;
     margin: 20px;
     background-color: transparent;
+    transition: transform 1s ease-in-out;
 
 }
 .container3{
@@ -35,7 +38,7 @@ img{
 html, body{
     height: 100%;
     margin: 0px;
-    transition: 20s ease-in-out;
+    transition: transform 200ms ease-in-out;
 }
 .container0{
 
@@ -47,3 +50,28 @@ html, body{
     background: transparent;
     
 }
+
+#hl{
+    transition: transform 300ms;
+
+}
+#hl:hover {
+    transform: translateY(-10px);
+}
+
+#gt{
+    transition: transform 300ms;
+
+}
+#gt:hover {
+    transform: translateY(-10px);
+}
+
+#cm{
+    transition: transform 300ms;
+
+}
+#cm:hover {
+    transform: translateY(-10px);
+}
+
