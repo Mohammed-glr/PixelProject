@@ -8,7 +8,7 @@ img{
     margin: 90px;
     border-radius: 50px;
 }
-.container-1{
+#container1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,9 @@ img{
    
     
 }
-.container-2{
+#container2{
+    width: 350px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +28,7 @@ img{
 
 
 }
-.container-3{
+#container3{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +88,7 @@ html, body{
     transform: translateY(-10px);
     transform: scale(0.9)
 }
-.card .container-1:hover  {
+.card #container1:hover  {
     width: auto;
     height: auto;
     border-radius: 50px;
@@ -95,3 +97,40 @@ html, body{
     border: -1px solid rgba(255, 255, 255, 0.454);
     transition: all ease 0.3s;
 }
+.card #container2:hover  {
+    width: 350px;
+    height: 700px;
+    border-radius: 50px;
+    background-color: #ED1B88;
+    box-shadow: 5px 5px 20px 1px #ED1B88;
+    border: -1px solid rgba(255, 255, 255, 0.454);
+    transition: all ease 0.3s;
+    
+}
+body .card #container3:hover  {
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    background-color: #01135D;
+    box-shadow: 5px 5px 20px 1px #01135D;
+    border: -1px solid rgba(255, 255, 255, 0.454);
+    transition: all ease 0.3s;   
+}
+@keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(135deg, hsl(38deg 89% 30%) 20%, hsl(37deg 67% 51%) 40%, hsl(37deg 100% 74%) 60%, hsl(0deg 100% 87%) 80%);
+    }
+    50% {
+      background: linear-gradient(135deg, hsl(220deg 85% 33%) 20%, hsl(238deg 70% 56%) 40%, hsl(257deg 70% 80%) 60%, hsl(247deg 61% 61%) 80%);
+    }
+    100% {
+      background: linear-gradient(135deg, hsl(38deg 89% 30%) 20%, hsl(37deg 67% 51%) 40%, hsl(37deg 100% 74%) 60%, hsl(0deg 100% 87%) 80%);
+    }
+  }
+  
+  .animate-gradient {
+    animation: gradientAnimation 5s ease infinite;
+    background-size: 400% 400%;
+
+  }
+  
