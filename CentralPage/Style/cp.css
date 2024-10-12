@@ -107,17 +107,33 @@ html, body{
     transition: all ease 0.3s;
     
 }
-body .card #container3:hover  {
+.card #container3:hover  {
     width: auto;
     height: auto;
     border-radius: 50px;
     background-color: #01135D;
     box-shadow: 5px 5px 20px 1px #01135D;
-    border: -1px solid rgba(255, 255, 255, 0.454);
-    transition: all ease 0.3s;   
 }
 @keyframes gradientAnimation {
     0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+   
+  }
+  
+  .animate-gradient { 
+    animation: gradientAnimation 10s linear infinite !important;
+    background-size: 200% 200% !important;
+    background-position: 0 0. 100% 100% !important;
+
+  }
+   /* 0% {
       background: linear-gradient(135deg, hsl(38deg 89% 30%) 20%, hsl(37deg 67% 51%) 40%, hsl(37deg 100% 74%) 60%, hsl(0deg 100% 87%) 80%);
     }
     50% {
@@ -125,12 +141,4 @@ body .card #container3:hover  {
     }
     100% {
       background: linear-gradient(135deg, hsl(38deg 89% 30%) 20%, hsl(37deg 67% 51%) 40%, hsl(37deg 100% 74%) 60%, hsl(0deg 100% 87%) 80%);
-    }
-  }
-  
-  .animate-gradient {
-    animation: gradientAnimation 5s ease infinite;
-    background-size: 400% 400%;
-
-  }
-  
+    } */
