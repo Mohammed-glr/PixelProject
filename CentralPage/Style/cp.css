@@ -13,6 +13,7 @@ img{
     align-items: center;
     justify-content: center;
     margin: 20px;
+    transition: all ease 0.3s;
     
    
     
@@ -40,14 +41,6 @@ html, body{
     height: 100%;
     margin: 0px;
     transition: transform 200ms ease-in-out;
-    --bg: radial-gradient(#000000 5%, #0000 6%);
-    --size: 3rem;
-    width: 100%;
-    height: 100%;
-    background-image: radial-gradient(#000000 5%, #0000 6%),
-      radial-gradient(#000000 5%, #0000 6%);
-    background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);
-    background-size: var(--size) var(--size);
 }
 .container-0{
 
@@ -94,7 +87,6 @@ html, body{
     border-radius: 50px;
     background-color: #BB7A0B;
     box-shadow: 5px 5px 20px 1px #BB7A0B;
-    border: -1px solid rgba(255, 255, 255, 0.454);
     transition: all ease 0.3s;
 }
 .card #container2:hover  {
@@ -103,7 +95,6 @@ html, body{
     border-radius: 50px;
     background-color: #ED1B88;
     box-shadow: 5px 5px 20px 1px #ED1B88;
-    border: -1px solid rgba(255, 255, 255, 0.454);
     transition: all ease 0.3s;
     
 }
