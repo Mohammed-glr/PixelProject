@@ -211,10 +211,16 @@ margin-right: 50px;
   background-position-x: 500%;
 }
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .logo{
-  
-  width: 500px;
-  height: 500px;
+  position: relative;
+  width: 300px;
+  height: 300px;
   color: #fff;
   transition: 1s;
   cursor: pointer;
