@@ -15,8 +15,6 @@ img{
     margin: 20px;
     transition: all ease 0.3s;
     
-   
-    
 }
 #container2{
     width: 350px;
@@ -35,7 +33,6 @@ img{
     justify-content: center;
     margin: 20px;;
     transition: all ease 0.3s;
-  
 } 
 html, body{
     height: 100%;
@@ -104,6 +101,4 @@ html, body{
     border-radius: 50px;
     background-color: #01135D;
     box-shadow: 5px 5px 20px 1px #01135D;
-  }
-body{
 }
