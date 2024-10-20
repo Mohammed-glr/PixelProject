@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background: #ffffff;
+    background: #ffffff;
     --gap: 5em;
     --line: 1px;
     --color: rgba(0, 0, 0, 0.2);
@@ -19,11 +19,7 @@ body{
     transparent calc(var(--gap) - var(--line)),
     var(--color) calc(var(--gap) - var(--line) + 1px),
     var(--color) var(--gap));
-    background-size: var(--gap) var(--gap); */
-    display: grid;
-  background: rgba(255, 255, 255, 0.904)radial-gradient(rgba(0, 0, 0, 0.712) 5%, transparent 1%);
-
-  background-size: 20px 20px;
+    background-size: var(--gap) var(--gap);
 }
 
 

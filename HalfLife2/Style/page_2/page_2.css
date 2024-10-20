@@ -1,5 +1,5 @@
 p{
-color: #000000;
+color: #ffffff;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: xx-large;
 /* transform: translate(-50%, -50%); */
@@ -8,10 +8,21 @@ a{
   text-decoration: none;
 }
 body{
-display: grid;
-  background: rgba(0, 0, 0, 0.904)radial-gradient(rgba(202, 92, 2, 0.712) 10%, transparent 1%);
-
-  background-size: 15px 15px;
+  background: #ffffff;
+  --gap: 5em;
+  --line: 1px;
+  --color: #BB7A0B;
+  background-image: linear-gradient(
+  -90deg,
+  transparent calc(var(--gap) - var(--line)),
+  var(--color) calc(var(--gap) - var(--line) + 1px),
+  var(--color) var(--gap)),
+  linear-gradient(
+  0deg,
+  transparent calc(var(--gap) - var(--line)),
+  var(--color) calc(var(--gap) - var(--line) + 1px),
+  var(--color) var(--gap));
+  background-size: var(--gap) var(--gap);
 }
 .navbar{
 display: flex;
@@ -54,7 +65,7 @@ margin-right: 50px;
  background-color: #BB7A0B;
  border-radius: 15px;
  border-width: 0;
- box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+ box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#BB7A0B 0 -3px 0 inset;
  box-sizing: border-box;
  color: #000000;
  cursor: pointer;
@@ -100,7 +111,7 @@ margin-right: 50px;
    background-color: #BB7A0B;
    border-radius: 15px;
    border-width: 0;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#BB7A0B 0 -3px 0 inset;
    box-sizing: border-box;
    color: #000000;
    cursor: pointer;
@@ -148,7 +159,7 @@ margin-right: 50px;
    background-color: #BB7A0B;
    border-radius: 15px;
    border-width: 0;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#BB7A0B 0 -3px 0 inset;
    box-sizing: border-box;
    color: #000000;
    cursor: pointer;
@@ -202,7 +213,7 @@ margin-right: 50px;
     text-align: center;
     width: 100%;
     margin-bottom: 80px;
-    background: linear-gradient(90deg, #000, #BB7A0B);
+    background: linear-gradient(90deg, #ffffff, #BB7A0B);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -227,7 +238,7 @@ article{
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    color: #000000;
+    color: #ffffff;
     width: 90%;
     margin-top: 5%;
     margin-left: 5%;
