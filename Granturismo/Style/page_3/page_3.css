@@ -1,5 +1,5 @@
 p{
-color: #000000;
+color: #ffffff;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: xx-large;
 /* transform: translate(-50%, -50%); */
@@ -8,16 +8,27 @@ a{
   text-decoration: none;
 }
 body{
-display: grid;
-  background: rgba(0, 0, 0, 0.904)radial-gradient(rgba(202, 92, 2, 0.712) 10%, transparent 1%);
-
-  background-size: 15px 15px;
+  background: #ffffff;
+  --gap: 4em;
+  --line: 1px;
+  --color: #01135D;
+  background-image: linear-gradient(
+  -90deg,
+  transparent calc(var(--gap) - var(--line)),
+  var(--color) calc(var(--gap) - var(--line) + 1px),
+  var(--color) var(--gap)),
+  linear-gradient(
+  0deg,
+  transparent calc(var(--gap) - var(--line)),
+  var(--color) calc(var(--gap) - var(--line) + 1px),
+  var(--color) var(--gap));
+  background-size: var(--gap) var(--gap);
 }
 .navbar{
 display: flex;
 justify-content: center;
 align-content: center;
-background-color: #BB7A0B;
+background-color: #01135D;
 margin-left: 25%;
 margin-top: 1%;
 width: 50%;
@@ -51,10 +62,10 @@ margin-right: 50px;
     margin-top: 14px;
  align-items: center;
  appearance: none;
- background-color: #BB7A0B;
+ background-color: #01135D;
  border-radius: 15px;
  border-width: 0;
- box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+ box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#01135D 0 -3px 0 inset;
  box-sizing: border-box;
  color: #000000;
  cursor: pointer;
@@ -97,10 +108,10 @@ margin-right: 50px;
    margin-left: 100px ;
    align-items: center;
    appearance: none;
-   background-color: #BB7A0B;
+   background-color: #01135D;
    border-radius: 15px;
    border-width: 0;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#01135D 0 -3px 0 inset;
    box-sizing: border-box;
    color: #000000;
    cursor: pointer;
@@ -145,10 +156,10 @@ margin-right: 50px;
    margin-left: 100px ;
    align-items: center;
    appearance: none;
-   background-color: #BB7A0B;
+   background-color: #01135D;
    border-radius: 15px;
    border-width: 0;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#01135D 0 -3px 0 inset;
    box-sizing: border-box;
    color: #000000;
    cursor: pointer;
@@ -198,11 +209,11 @@ margin-right: 50px;
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 90px;
-  color: #BB7A0B;
+  color: #01135D3;
   text-align: center;
   width: 100%;
   margin-bottom: 80px;
-  background: linear-gradient(90deg, #000, #BB7A0B);
+  background: linear-gradient(90deg, #000, #01135D);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -227,7 +238,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
-  color: #000000;
+  color: #ffffff;
   width: 90%;
   margin-top: 5%;
   margin-left: 5%;
@@ -235,7 +246,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .artikelcontainer{
   margin-left: 50px;
-  background-color: #BB7A0B;
+  background-color: #01135D;
   border-radius: 30px;
   width: 40%;
   height: 562.5px;
