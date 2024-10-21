@@ -11,7 +11,7 @@ body{
   background: #ffffff;
   --gap: 5em;
   --line: 1px;
-  --color: ##ED1B88;
+  --color: #ED1B88;
   background-image: linear-gradient(
   -90deg,
   transparent calc(var(--gap) - var(--line)),

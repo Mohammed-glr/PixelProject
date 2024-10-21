@@ -81,8 +81,8 @@ body{
 }
 .banner .content .ball{
     display: block;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 30px auto 0;
     margin-bottom: 200px;
     box-shadow: 0 0 50px rgba(0,0,0,.5);

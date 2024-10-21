@@ -11,7 +11,7 @@ body{
   background: #ffffff;
   --gap: 5em;
   --line: 1px;
-  --color: ##ED1B88;
+  --color: #ED1B88;
   background-image: linear-gradient(
   -90deg,
   transparent calc(var(--gap) - var(--line)),
@@ -201,11 +201,11 @@ margin-right: 50px;
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 90px;
-  color: #BB7A0B;
+  color: #Ed1b88;
   text-align: center;
   width: 100%;
   margin-bottom: 80px;
-  background: linear-gradient(90deg, #000, #BB7A0B);
+  background: linear-gradient(90deg, #ffffff, #Ed1b88);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -226,12 +226,13 @@ margin-right: 50px;
   align-items: center;
   margin-left: 40%;
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   color: #fff;
   transition: 1s;
   cursor: pointer;
   transform: rotateX(-55deg) rotateY(15deg) rotateZ(60deg);
+  background: transparent;
 }
 
 .logo:hover {
@@ -250,7 +251,7 @@ margin-right: 50px;
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(315deg, #000000, #BB7A0B);
+  background: linear-gradient(315deg, #ffffff, #Ed1b88);
 }
 
 .logo::after {
@@ -260,7 +261,7 @@ margin-right: 50px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(315deg, #000000, #BB7A0B);
+  background: linear-gradient(315deg, #ffffff, #Ed1b88);
   filter: blur(30px);
 }
 
@@ -280,12 +281,12 @@ margin-right: 50px;
   margin-top: 14px;
 align-items: center;
 appearance: none;
-background-color: #BB7A0B;
+background-color: #Ed1b88;
 border-radius: 15px;
 border-width: 0;
-box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#Ed1b88 0 -3px 0 inset;
 box-sizing: border-box;
-color: #000000;
+color: #ffffff;
 cursor: pointer;
 display: inline-flex;
 height: 80px;
