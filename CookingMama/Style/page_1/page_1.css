@@ -1,5 +1,5 @@
 p{
-color: #000000;
+color: #ffffff;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: xx-large;
 /* transform: translate(-50%, -50%); */
@@ -8,22 +8,33 @@ a{
   text-decoration: none;
 }
 body{
-display: grid;
-  background: rgba(0, 0, 0, 0.904)radial-gradient(rgba(202, 92, 2, 0.712) 10%, transparent 1%);
-
-  background-size: 15px 15px;
+  background: #ffffff;
+  --gap: 5em;
+  --line: 1px;
+  --color: ##ED1B88;
+  background-image: linear-gradient(
+  -90deg,
+  transparent calc(var(--gap) - var(--line)),
+  var(--color) calc(var(--gap) - var(--line) + 1px),
+  var(--color) var(--gap)),
+  linear-gradient(
+  0deg,
+  transparent calc(var(--gap) - var(--line)),
+  var(--color) calc(var(--gap) - var(--line) + 1px),
+  var(--color) var(--gap));
+  background-size: var(--gap) var(--gap);
 }
 .navbar{
 display: flex;
 justify-content: center;
 align-content: center;
-background-color: #BB7A0B;
+background-color: #Ed1b88;
 margin-left: 25%;
 margin-top: 1%;
 width: 50%;
 height: 80px;
 border-radius: 20px;
-box-shadow: #000000 0 0 10px;
+box-shadow: #ffffff 0 0 10px;
 transition: 500ms;
 }
 .navbar:hover{
@@ -51,12 +62,12 @@ margin-right: 50px;
     margin-top: 14px;
  align-items: center;
  appearance: none;
- background-color: #BB7A0B;
+ background-color: #Ed1b88;
  border-radius: 15px;
  border-width: 0;
- box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+ box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#Ed1b88 0 -3px 0 inset;
  box-sizing: border-box;
- color: #000000;
+ color: #ffffff;
  cursor: pointer;
  display: inline-flex;
  height: 48px;
@@ -97,12 +108,12 @@ margin-right: 50px;
    margin-left: 100px ;
    align-items: center;
    appearance: none;
-   background-color: #BB7A0B;
+   background-color: #Ed1b88;
    border-radius: 15px;
    border-width: 0;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#Ed1b88 0 -3px 0 inset;
    box-sizing: border-box;
-   color: #000000;
+   color: #ffffff;
    cursor: pointer;
    display: inline-flex;
    height: 48px;
@@ -145,12 +156,12 @@ margin-right: 50px;
    margin-left: 100px ;
    align-items: center;
    appearance: none;
-   background-color: #BB7A0B;
+   background-color: #Ed1b88;
    border-radius: 15px;
    border-width: 0;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#Ed1b88 0 -3px 0 inset;
    box-sizing: border-box;
-   color: #000000;
+   color: #ffffff;
    cursor: pointer;
    display: inline-flex;
    height: 48px;
