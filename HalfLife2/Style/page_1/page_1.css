@@ -9,7 +9,7 @@ a{
 }
 body{
  background: #ffffff;
- --gap: 5em;
+ --gap: 4em;
  --line: 1px;
  --color: #BB7A0B;
  background-image: linear-gradient(

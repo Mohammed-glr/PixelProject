@@ -9,7 +9,7 @@ a{
 }
 body{
   background: #ffffff;
-  --gap: 5em;
+  --gap: 4em;
   --line: 1px;
   --color: #ED1B88;
   background-image: linear-gradient(
@@ -226,9 +226,8 @@ margin-right: 50px;
   align-items: center;
   margin-left: 40%;
   position: relative;
-  width: 300px;
+  width: 310px;
   height: 300px;
-  color: #fff;
   transition: 1s;
   cursor: pointer;
   transform: rotateX(-55deg) rotateY(15deg) rotateZ(60deg);
